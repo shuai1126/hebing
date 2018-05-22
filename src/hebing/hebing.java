@@ -14,7 +14,7 @@ public class hebing {
                 for(int i=0;i<=n;i++) {
                     //fr = new FileReader("D:\\Test1\\"+i+".txt");//要复制的文件
                     BufferedReader fr = new BufferedReader(new FileReader("D:\\Test1\\"+i+".txt"));
-                    fw = new FileWriter("D:\\1.txt",true);//所保存的文件位置，true代表不是覆盖操作
+                    //fw = new FileWriter("D:\\1.txt",true);//所保存的文件位置，true代表不是覆盖操作
                     int j=0;
                     String b= null;
                     while (j<10&&(b=fr.readLine())!=null) {
